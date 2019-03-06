@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Discord-Core\Discord-Core.csproj" />
+    <ProjectReference Include="..\Discord-Core\Discord-Objects-Core\Discord-Objects-Core.csproj" />
+  </ItemGroup>
+
+</Project>
